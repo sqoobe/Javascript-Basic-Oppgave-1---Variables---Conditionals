@@ -108,13 +108,29 @@ Prøv å endre verdiene på variablene for å sikre at IF/ELSE-setningen din
 håndterer alle tilfeller korrekt.
 ******************************************************************************/
 
-let userName = "";
+let userName = "Jacob";
 let userAge = 18;
 let userIsLoggedIn = false;
 let userIsBlocked = false;
 let goToPage = "";
 
 // Skriv koden for oppgave 4 her
+
+if (userName !== "" && userAge >= 18 && userIsBlocked == false) {
+    userIsLoggedIn = true
+    goToPage = "/home"
+    console.log(`Welcome, ${userName}`)
+    console.log(userIsLoggedIn)
+    console.log(goToPage)
+
+}
+else {
+    userIsBlocked = true
+    console.log(`You cannot enter this site ${userName}`)
+}
+
+console.log(userIsBlocked)
+
 
 /******************************************************************************
 OPPGAVE 5
@@ -134,3 +150,7 @@ at betingelsen din fungerer som den skal.
 const userMale = false;
 
 // Skriv koden for oppgave 5 her
+
+const userTitle = userMale ? "Mr." : "Mrs.";
+
+console.log(userTitle)
