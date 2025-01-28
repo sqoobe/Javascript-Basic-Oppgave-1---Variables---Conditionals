@@ -25,14 +25,20 @@ const når du definerer variablene.
 ******************************************************************************/
 
 // Skriv koden for oppgave 2 her
-
+// console.log("Hello mom");
+const firstName = "Jacob";
 let myAge = 28;
-const firstName = Jacob;
 let userOverEighteen = true;
-
-
-
-
+// console.log(myAge > 0);
+const array = [
+    "Mandag",
+    "Tirsdag",
+    "Onsdag",
+    "Torsdag",
+    "Fredag",
+    "Lørdag",
+    "Søndag"
+]
 
 /******************************************************************************
 OPPGAVE 3
@@ -45,6 +51,41 @@ Skriv noen eksempler der du tester disse operatorene.
 ******************************************************************************/
 
 // Skriv koden for oppgave 3 her
+
+//starting health
+let health = 4
+
+//add 1 health
+// console.log(health = health + 1) // = 5
+// console.log(health += 1)
+
+//subtract 1 health
+// console.log(health = health - 1) // = 3
+// console.log(health -=1)
+
+
+
+//add 1 health
+// health++
+// console.log(health++) // = 5
+
+
+
+//subtract 1 health
+// health--
+// console.log(health--) // = 3
+
+
+
+//multiply health
+// health *= 2
+// console.log(health) // = 8 
+
+
+
+//divide health in half
+// health /= 2
+// console.log(health) // = 2
 
 /******************************************************************************
 OPPGAVE 4
